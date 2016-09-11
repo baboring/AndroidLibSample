@@ -21,19 +21,21 @@ include module Dependency ( in Project Structure - Dependencies) # You should ma
 Step5
 
 Check it out that it works or not. ( like below )
+
 import com.narith.testlib.Test;
 
 public class MainActivity extends AppCompatActivity {
 
-@Override
-protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-    // Check function
-    Test.HelloWorld();
+        // Check function
+        Test.HelloWorld();
+    }
 }
-}
+
 
 Step6
 
