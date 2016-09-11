@@ -8,12 +8,19 @@ Step2
 New Module # this is library module that you want.
 Step3
 
-Create a class that you want and create function. like blow
-public class Test { 
-  public static void HelloWorld() { 
-    Log.d("Test","Hello World"); 
-  } 
+package com.narith.testlib;
+
+import android.util.Log;
+
+/**
+ * Created by Benjamin on 9/11/2016.
+ */
+public class Test {
+    public static void HelloWorld() {
+        Log.d("Test","Hello World");
+    }
 }
+
 
 Step4
 
