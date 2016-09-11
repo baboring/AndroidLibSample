@@ -42,3 +42,6 @@ public class MainActivity extends AppCompatActivity {
 Step6
 
 Run app in Machine and check it out.
+
+
+@ If you want to use it to another development tools, you can find .aar library in outputs/aar folder and you are going to need .jar file. Also .jar file is in the .aar file. check it out.
